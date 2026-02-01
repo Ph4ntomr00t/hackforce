@@ -225,7 +225,8 @@ body {
 }
 
 .hero-container {
-    max-width: 900px;
+    width: 70%;
+    text-align: center;
     animation: fadeInUp 1s ease-out;
 }
 
@@ -276,6 +277,8 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: clamp(3rem, 8vw, 7rem);
     font-weight: 900;
+    display: flex;
+    justify-content: center;
     line-height: 1;
     margin-bottom: 1rem;
 }
